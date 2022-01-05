@@ -1,0 +1,134 @@
+<!DOCTYPE html >
+
+<html lang="en">
+
+<head>
+    <title> Commission Info </title>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" href="../styles/style.css" />
+	
+</head>
+
+<body>
+	<!--header-->
+	<div id = "header" >
+		<h1 id ="title">&#x2606;Kurumiiru </h1>
+    </div>
+		
+	<!--top navigation -->	
+	<div id="navigationBar">
+		<a href = " ../index.html "> Welcome </a>
+		<a href = " about.html "> About </a>
+		<a href = " gallery.html "> Illustrations </a>
+		<a href = " rules.html "> Terms of Service </a>
+		<a href = " prices.html "> Prices </a>
+		<a href = " commissions.html "> Commission info </a>
+		<a href = " contact.html "> Contact </a>
+	</div>
+
+	<div class="row">
+		<div class="column">
+		<div class="section">
+			 
+		<h2 class = "title"> Commissioning me </h2>
+			
+		<p> Want something drawn by me? Then look no further, 
+		you can commission me to draw what you'd like.
+		</p>
+		<p>
+		<strong>Before commissioning me, please review both the 
+		<a href = " rules.html "> Terms of Service </a>
+		and
+		<a href = " prices.html "> Commission Prices </a>.
+		</strong>
+		</p>
+		
+		<h2 class="title"> Commission form</h2>
+		
+		<p> Below is the commission form. If you are interested
+		in having me draw something for you, please fill this out.
+		</p>
+		
+		<form id="order" method="post" 
+		action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+		<fieldset>
+			<p>Name
+			<input type="text" name= "cilentname" id="cilentname"/></p>
+			<p>Email
+			<input type="text" name= "cilentemail" id="cilentemail"/></p>
+			
+			<p> Commission type 
+			<select name="commissiontype" id="commissionType">
+				<option selected> Portrait </option>
+				<option> Bust </option>
+			</select>	</p>
+			
+			<fieldset>
+			<p>Commission style:</p>
+			<p><input type ="checkbox" name="cssk" 
+			value="sketch">			
+			Sketch
+			<input type ="checkbox" name="csbw" 
+			value="black and white">
+			Black and White
+			<input type ="checkbox" name="ccsfc" 
+			value=" Full Color">
+			Full Color</p>
+            <p>Add another character?</p>
+			<p>Yes
+			<input type="radio" name="addcharyes" value="yes" /> 
+			<p>No
+			<input type="radio" name="addcharno"  value="no"/> </p>	
+			</fieldset>			
+					
+			
+			<p> Payment </p>
+            <fieldset>
+               <input name="ctype" id="ctypep" type="radio" value="paypal" 
+			   checked="checked" />
+               <label for="ctypep">Paypal</label><br />
+               <input name="ctype" id="ctypev" type="radio" value="visa" />
+               <label for="ctypev">Visa</label><br />
+               <input name="ctype" id="ctypem" type="radio" value="mastercard"/>
+               <label for="ctypem">Mastercard</label><br />
+
+            </fieldset>
+
+			<p>Details:</p><br />
+            <textarea name="details" rows="3" cols="50"></textarea>
+			
+			<p><input type="submit" value="Submit request"/>
+            <input type="hidden" name="formtype" value="request" /></p>
+		</fieldset>
+		</form>
+		</div>
+		</div>
+	</div>
+	
+	<!-- footer -->
+
+  
+	<div id = "footer">
+		<div id="nav">
+			<p class="nav"> <strong> Navigation </strong></p>
+				 <a href = " http://itcourses.cs.unh.edu/403/news "> 
+				IT403 Homepage</a>	
+			<br/>
+			<a href = " ../index.html "> Welcome </a>
+			<br/>
+			<a href = " about.html "> About </a>
+			<br/>
+			<a href = " gallery.html "> Illustrations </a>
+			<br/>
+			<a href = " rules.html "> Terms of Service </a>
+			<br/>
+			<a href = " prices.html "> Prices </a>
+			<br/>
+			<a href = " commissions.html "> Commission info </a>
+			<br/>
+			<a href = " contact.html "> Contact </a>
+		</div>
+	</div>
+</body>     
+    
+    
